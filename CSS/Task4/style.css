@@ -3,12 +3,12 @@ h1{
 
 }
 div{
-  height: 200px;
+  height: 500px;
   width: 320px;
   margin-left: 150px;
   border: 1.5px solid rgb(21, 21, 21);
   display: inline-block;
-  transition: outline 0.2s ease, outline-offset 0.2s ease;
+
 }
 #box1{
  background-image: url("laptop.jpg"); 
@@ -29,7 +29,7 @@ div{
  background-image: url("sw.jpg"); 
  background-size:contain;
  background-repeat: no-repeat;
-text-align: center;
+ text-align: center;
 
 }
 .header{
@@ -51,5 +51,5 @@ a{
 }
 div:hover {
   outline: 3px solid #4a90e2;   
-  outline-offset: 4px;         
+         
 }

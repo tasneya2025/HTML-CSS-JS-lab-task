@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>University Admission Form</title>
+    
+    </head>
+    <body>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Student Information Form</legend>
+                <h1>American International University Bangladesh</h1>
+                <h3>Student Information</h3>
+
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required>
+
+                <label for="LastName">Last Name:</label>
+                <input type="text" id="LastName" name="LastName" placeholder="Doe" required><br><br>
+
+
+                <label for="fName">Father's Name:</label>
+                <input type="text" id="fName" name="fName" placeholder="Kevin Doe" required>
+
+
+                <label for="mName">Mother's Name:</label>
+                <input type="text" id="mName" name="mName" placeholder="Bella Yu" required><br><br>
+
+
+                <label for="Dob">Date of Birth:</label>
+                <input type="date" id="Dob" name="Dob" required><br><br>
+
+
+                <label for="gender"> Gender:</label>
+                <input type="radio" id="maleRB" name="gender" value="male">male
+                <input type="radio" id="femaleRB" name="gender" value="female">female<br><br>
+
+
+
+                <label for="pd">Prefer Department:</label>
+                <select id="dept" name="dept">
+                    <option id="op1" value="">Select an Option</option>
+                    <option id="eee" value="eee">EEE</option>
+                    <option id="cse" value="cse">CSE</option>
+                    <option id="coe" value="coe">COE</option>
+                    <option id="ipe" value="ipe">IPE</option>
+                </select><br><br>
+                
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="xyz@email.com" required><br><br>
+
+                
+
+                 
+
+            <fieldset>
+                <legend>Academic Background</legend>
+                <h5>HSC :</h5>
+             
+
+                <label for="college">College Name:</label>
+                <input type="text" id="college" name="college" placeholder="XYZ College" required>
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" placeholder="4.95" required>
+
+                <h5>SSC :</h5>
+             
+
+                <label for="school">School Name:</label>
+                <input type="text" id="school" name="college" placeholder="XYZ high school" required>
+                <label for="gpa">GPA:</label>
+                <input type="text" id="gpa" name="gpa" placeholder="4.95" required><br><br>
+
+
+
+            </fieldset>
+
+        <br>
+
+
+        
+                <label for="studentPic">Student Photo: </label>
+                <input type="file" id="studentPic" name="studentPic" required><br><br>
+
+
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" name="pass" maxlength="8"><br>
+
+               <input type="submit" id="submit" name="submit" value="submit">
+       
+            </fieldset>
+
+        </form>
+
+       
+    </body>
+</html>
