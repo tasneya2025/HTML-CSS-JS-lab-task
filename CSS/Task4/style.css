@@ -21,7 +21,7 @@ div{
  background-image: url("hp.jpg"); 
  background-size:contain;
  background-repeat: no-repeat;
- margin-top: 20px;
+
  text-align: center;
 
 }
@@ -29,9 +29,11 @@ div{
  background-image: url("sw.jpg"); 
  background-size:contain;
  background-repeat: no-repeat;
+
  text-align: center;
 
 }
+
 .header{
   margin-top: 220px;
  
@@ -50,6 +52,6 @@ a{
 
 }
 div:hover {
-  outline: 3px solid #4a90e2;   
+  outline: 3px solid #dcf864;   
          
 }

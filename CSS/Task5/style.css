@@ -1,0 +1,19 @@
+.box1{
+
+background-color: rgb(200, 150, 247);
+color: aliceblue;
+position: fixed;
+bottom: 0px;
+right: 0px;
+padding: 30px;
+border: 1px solid rgb(58, 58, 248);
+z-index: 30px;
+margin-bottom: 10px;
+}
+
+
+.box1:hover{
+
+background-color: rgb(1, 1, 1);
+
+}
